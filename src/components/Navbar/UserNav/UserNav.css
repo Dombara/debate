@@ -1,0 +1,19 @@
+.UserNav{
+    /* width:'100vw'; */
+    /* background-color: blue; */
+    height:10vh;
+}
+.navlist{
+    display: flex;
+    
+}
+
+
+.leftnav{
+    display: flex;
+    align-content: flex-start;
+}
+.rightnav{
+    display: flex;
+
+}

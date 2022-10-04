@@ -1,0 +1,17 @@
+.left-side{
+    height:89vh;
+    background-color: aqua;
+}
+.center{
+    height:89vh;
+    background-color: antiquewhite;
+}
+
+.right{
+    height:89vh;
+    background-color: brown;
+}
+
+div.Home{
+    width:101vw;
+}

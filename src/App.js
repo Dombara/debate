@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import InnerHome from './components/Home/UserHome/InnerHome/InnerHome';
+import OuterHome from './components/Home/UserHome/OuterHome/OuterHome';
+import UserNav from './components/Navbar/UserNav/UserNav';
+import AdminNav from './components/Navbar/AdminNav/AdminNav';
+import Register from './components/Log/Register/Register';
+import Login from './components/Log/LogIn/Login';
+import {Route, Routes } from 'react-router-dom';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div className='App'>
 
-export default App;
+    {/* <Login/> */}
+
+    {/* <Register/> */}
+
+     {/* <UserNav/>   */}
+     {/* <OuterHome/>
+<Routes>
+  <Route exact path='/' element={<OuterHome/>}></Route>
+  <Route exact path='/innerHome' element={<InnerHome/>}></Route>
+</Routes> */}
+
+
+</div>
+
+  )
+}

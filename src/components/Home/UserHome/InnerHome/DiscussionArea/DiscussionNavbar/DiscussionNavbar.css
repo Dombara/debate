@@ -1,0 +1,13 @@
+*{
+    margin: auto;
+  }
+
+nav{
+    height: 10vh;
+    width: 100vw;
+    border-radius: 20px;
+}
+
+.insideNav{
+  background-color: rgb(182, 205, 52);
+}
