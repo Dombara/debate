@@ -40,8 +40,9 @@ export default function Navbar() {
 
 <NavLink className='navToAccount' to='/account'>Account</NavLink>
 
-
+{/* Logout */}
    
+<NavLink className='navToLogout' to='/logout'>Log out</NavLink>
   
     
 </nav>

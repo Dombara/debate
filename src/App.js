@@ -14,7 +14,7 @@ export default function App() {
 
     {/* <Login/> */}
 
-    {/* <Register/> */}
+    <Register/>
 
      {/* <UserNav/>   */}
      {/* <OuterHome/>
@@ -22,6 +22,7 @@ export default function App() {
   <Route exact path='/' element={<OuterHome/>}></Route>
   <Route exact path='/innerHome' element={<InnerHome/>}></Route>
 </Routes> */}
+
 
 
 </div>
