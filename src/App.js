@@ -17,11 +17,12 @@ export default function App() {
     <Register/>
 
      {/* <UserNav/>   */}
-     {/* <OuterHome/>
+     {/* <OuterHome/> */}
 <Routes>
   <Route exact path='/' element={<OuterHome/>}></Route>
   <Route exact path='/innerHome' element={<InnerHome/>}></Route>
-</Routes> */}
+  <Route exact path='/login' element={<Login/>}/>
+</Routes>
 
 
 
